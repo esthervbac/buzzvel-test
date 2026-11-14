@@ -62,7 +62,7 @@ export function Hero() {
                 </span>
               </div>
             </div>
-            <div className="absolute top-80 sm:top-95 lg:top-100.75 -left-5 sm:left-[-44.8px] w-20 sm:w-26.5 h-20 sm:h-26.5 flex z-0 pointer-events-none">
+            <div className="absolute top-80 sm:top-82 lg:top-100.75 -left-5 sm:left-[-44.8px] w-20 sm:w-26.5 h-20 sm:h-26.5 flex z-0 pointer-events-none">
               <Image
                 src="/circulo.svg"
                 alt="Circulo"
