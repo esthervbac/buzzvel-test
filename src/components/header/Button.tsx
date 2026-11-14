@@ -18,9 +18,9 @@ export function Button({
 
   const variants = {
     primary:
-      "bg-[#3157F6] text-white text-sm-700 font-sans hover:bg-blue-700 focus:ring-blue-500 radius-[8px]",
+      "bg-[#3157F6] text-white text-sm/6 font-sans hover:bg-blue-700 focus:ring-blue-500 rounded-[8px]",
     secondary:
-      "bg-gray-100 text-gray-900 hover:bg-gray-200 focus:ring-gray-500",
+      "bg-[#FFFFFF] text-[#171B2C]-700 text-sm/6 font-sans font-bold hover:bg-gray-200 focus:ring-gray-500",
   };
 
   return (
