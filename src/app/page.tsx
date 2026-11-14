@@ -1,5 +1,6 @@
 import { Header } from "@/components/Header";
 import { Categories } from "@/components/home/CategoriesContent";
+import { FeaturedCourseContent } from "@/components/home/FeaturedCourseContent";
 import { Hero } from "@/components/home/HeroContent";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <main className="flex flex-1 w-full flex-col items-center justify-center">
         <Hero />
         <Categories />
+        <FeaturedCourseContent />
       </main>
     </div>
   );
