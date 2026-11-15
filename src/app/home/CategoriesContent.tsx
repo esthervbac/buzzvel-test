@@ -1,4 +1,4 @@
-import { Card } from "@/components/home/Card";
+import { Card } from "@/app/home/Card";
 
 export function Categories() {
   return (
@@ -6,14 +6,14 @@ export function Categories() {
       <div className="flex flex-col text-left max-w-7xl w-full gap-12 pt-12">
         <div className="flex text-left max-w-7xl w-full">
           <div className="flex flex-col text-left max-w-xl gap-6">
-            <p className="text-[#3157F6] text-xs/4 font-sans font-semibold uppercase tracking-[1.44px]">
+            <p className="text-[#3157F6] text-xs/4 font-inter font-semibold uppercase tracking-[1.44px]">
               Find your next skill
             </p>
-            <p className="text-[#171B2C] text-[32px]/9 sm:text-[48px] sm:leading-17.5 font-sans font-extrabold tracking-[-0.8px] sm:tracking-[-1.2px]">
+            <p className="text-[#171B2C] text-[32px]/9 sm:text-[48px] sm:leading-17.5 font-inter font-extrabold tracking-[-0.8px] sm:tracking-[-1.2px]">
               <span className="whitespace-nowrap">Learn something worth</span>
               <br /> knowing.
             </p>
-            <p className="text-[#656770] text-[16px]/6.5 sm:text-[18px]/7 font-sans font-normal">
+            <p className="text-[#656770] text-[16px]/6.5 sm:text-[18px]/7 font-inter font-normal">
               Short, practical courses designed around skills you can put to
               work immediately.
             </p>

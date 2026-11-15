@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { Button } from "@/components/header/Button";
-import { LinkHeader } from "@/components/header/LinkHeader";
+import { Button } from "@/app/components/Button";
+import { LinkHeader } from "@/app/components/LinkHeader";
 import Link from "next/link";
 
 export function FeaturedCourseContent() {
@@ -18,7 +18,7 @@ export function FeaturedCourseContent() {
               priority
             />
             <div className="absolute -top-3 -left-3 bg-[#FFEE7E] rounded-md flex items-center justify-center z-10 py-2 px-4 shadow-md">
-              <span className="text-xs font-sans font-semibold text-[#171B2C] dark:text-black uppercase tracking-[1.44px]">
+              <span className="text-xs font-inter font-semibold text-[#171B2C] dark:text-black uppercase tracking-[1.44px]">
                 Featured Course
               </span>
             </div>
@@ -26,21 +26,21 @@ export function FeaturedCourseContent() {
         </div>
 
         <div className="flex flex-col text-left max-w-xl gap-6 items-start">
-          <p className="text-[#FFFFFF] text-xs/4 font-sans font-semibold uppercase tracking-[1.44px]">
+          <p className="text-[#FFFFFF] text-xs/4 font-inter font-semibold uppercase tracking-[1.44px]">
             Most popular this month
           </p>
 
-          <p className="text-[#FFFFFF] text-[48px]/14 sm:text-[48px]/14 font-sans font-extrabold tracking-[-1.2px] sm:tracking-[-1.2px] text-left whitespace-nowrap">
+          <p className="text-[#FFFFFF] text-[48px]/14 sm:text-[48px]/14 font-inter font-extrabold tracking-[-1.2px] sm:tracking-[-1.2px] text-left whitespace-nowrap">
             Designing products <br /> people understand.
           </p>
 
-          <p className="text-[#FFFFFF] text-[16px]/7 sm:text-[18px]/7 font-sans font-normal text-left">
+          <p className="text-[#FFFFFF] text-[16px]/7 sm:text-[18px]/7 font-inter font-normal text-left">
             Learn how to turn complex workflows into simple, intentional product
             experiences through research, structure and thoughtful interaction
             design.
           </p>
 
-          <p className="text-[#FFFFFF] text-[16px]/7 sm:text-[18px]/7 font-sans font-normal text-left">
+          <p className="text-[#FFFFFF] text-[16px]/7 sm:text-[18px]/7 font-inter font-normal text-left">
             with Maya Chen · Senior Product Designer
           </p>
 
@@ -72,7 +72,7 @@ export function FeaturedCourseContent() {
               <LinkHeader
                 href="/#"
                 label="Browse all courses"
-                className="text-[#E7E7EC] font-sans text-sm/6 leading-6 hover:no-underline font-bold"
+                className="text-[#E7E7EC] font-inter text-sm/6 leading-6 hover:no-underline font-bold"
               />
               <Link href="#">
                 <Image

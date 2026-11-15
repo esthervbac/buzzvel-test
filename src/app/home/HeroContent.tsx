@@ -1,18 +1,18 @@
 import Image from "next/image";
-import { Button } from "@/components/header/Button";
+import { Button } from "@/app/components/Button";
 
 export function Hero() {
   return (
     <div className="flex w-full m-h-140 sm:min-h-[calc(100vh-80px)] items-center justify-center bg-[#F9F8F3] dark:bg-black pt-8 lg:pt-0 pb-16 px-4">
       <div className="flex flex-col lg:flex-row items-center justify-center gap-16 max-w-7xl w-full">
         <div className="flex flex-col text-left max-w-xl gap-6 order-2 lg:order-1">
-          <p className="text-[#3157F6] text-xs/4 font-sans font-semibold uppercase tracking-[1.44px]">
+          <p className="text-[#3157F6] text-xs/4 font-inter font-semibold uppercase tracking-[1.44px]">
             Learn at your own pace
           </p>
-          <p className="text-[#171B2C] text-[40px]/11 sm:text-[64px] sm:leading-17.5 font-sans font-extrabold tracking-[-1px] sm:tracking-[-1.60px]">
+          <p className="text-[#171B2C] text-[40px]/11 sm:text-[64px] sm:leading-17.5 font-inter font-extrabold tracking-[-1px] sm:tracking-[-1.60px]">
             Build skills that actually move you forward.
           </p>
-          <p className="text-[#656770] text-[16px]/6.5 sm:text-[18px] sm:leading-7 font-sans font-normal">
+          <p className="text-[#656770] text-[16px]/6.5 sm:text-[18px] sm:leading-7 font-inter font-normal">
             Practical courses taught by people who do the work <br />
             every day. Learn design, technology, business and more <br />— one
             focused lesson at a time.
@@ -34,7 +34,7 @@ export function Hero() {
               />
             </div>
 
-            <p className="text-[#171B2C] text-sm/6 font-sans font-medium">
+            <p className="text-[#171B2C] text-sm/6 font-inter font-medium">
               Trusted by 24,000+
               <span className="text-[#656770] ml-1">learners</span>
             </p>
@@ -53,11 +53,11 @@ export function Hero() {
             <div className="absolute top-4 -left-3 sm:-left-5.5 w-48 sm:w-53.25 h-14 bg-white dark:bg-zinc-900 shadow-[0px_4px_24px_0px_#0000001A] rounded-xl py-3 px-3 sm:px-4 flex items-center justify-between z-20 scale-90 sm:scale-100 origin-top-left">
               <div className="flex flex-row items-center gap-3">
                 <div className="w-10.75 h-8 rounded-lg bg-[#E2E8FF] flex items-center justify-center">
-                  <span className="text-sm/6 font-bold text-[#3157F6] font-sans">
+                  <span className="text-sm/6 font-bold text-[#3157F6] font-inter">
                     120+
                   </span>
                 </div>
-                <span className="text-xs sm:text-sm/6 font-sans font-normal text-[#171B2C] dark:text-white">
+                <span className="text-xs sm:text-sm/6 font-inter font-normal text-[#171B2C] dark:text-white">
                   expert-led courses
                 </span>
               </div>
@@ -91,7 +91,7 @@ export function Hero() {
                     priority
                   />
                 </div>
-                <span className="text-xs sm:text-sm/6 font-sans font-normal text-[#171B2C] dark:text-white">
+                <span className="text-xs sm:text-sm/6 font-inter font-normal text-[#171B2C] dark:text-white">
                   4.9 avg rating
                 </span>
               </div>

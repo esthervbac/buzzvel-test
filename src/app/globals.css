@@ -9,6 +9,8 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
+  --font-jakarta: var(--font-plus-jakarta), sans-serif;
+  --font-inter: var(--font-inter), sans-serif;
   --font-mono: var(--font-geist-mono);
 }
 
