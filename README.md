@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Luma
 
-## Getting Started
+Luma is a responsive landing page concept for an online learning platform. It introduces practical, expert-led courses in design, technology, business, and creative fields, and guides visitors through featured courses, how the platform works, testimonials, and a contact section.
 
-First, run the development server:
+## Tech stack
+
+- Next.js 16 with the App Router
+- React 19 and TypeScript
+- Tailwind CSS 4
+
+## Requirements
+
+- Node.js and npm
+
+## Run locally
+
+1. Clone the repository and move into the project directory.
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+The page updates as you edit the source files.
+
+Create a production build:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+To run the production build locally, start it after building:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Then open [http://localhost:3000](http://localhost:3000).
 
-## Learn More
+## Project structure
 
-To learn more about Next.js, take a look at the following resources:
+- `src/app/page.tsx` — assembles the landing page sections.
+- `src/app/home/` — content for the hero, course categories, featured course, and other page sections.
+- `src/app/components/` — shared interface components such as the header, footer, buttons, and contact form.
+- `public/` — SVG illustrations and other static assets.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Note
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is a front-end landing page. The contact form and course links are presentation only; no backend submission or course enrollment is configured.
 
-## Deploy on Vercel
+## Approximate time spent
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 21 hours in total
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## AI tools used
+
+- Gemini: helped me to adjust some complicated parts as the mobile version and the readme file.
