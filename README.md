@@ -1,6 +1,6 @@
-# Luma
+# Luma.
 
-Luma is a responsive landing page concept for an online learning platform. It introduces practical, expert-led courses in design, technology, business, and creative fields, and guides visitors through featured courses, how the platform works, testimonials, and a contact section.
+Luma. is a responsive landing page concept for an online learning platform. It introduces practical, expert-led courses in design, technology, business, and creative fields, and guides visitors through featured courses, how the platform works, testimonials, and a contact section.
 
 ## Tech stack
 
