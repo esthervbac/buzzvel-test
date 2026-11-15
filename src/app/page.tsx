@@ -2,6 +2,7 @@ import { Header } from "@/components/Header";
 import { Categories } from "@/components/home/CategoriesContent";
 import { FeaturedCourseContent } from "@/components/home/FeaturedCourseContent";
 import { Hero } from "@/components/home/HeroContent";
+import { HowItWorksContent } from "@/components/home/HowItWorksContent";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <Hero />
         <Categories />
         <FeaturedCourseContent />
+        <HowItWorksContent />
       </main>
     </div>
   );
