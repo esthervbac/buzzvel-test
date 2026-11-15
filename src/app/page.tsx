@@ -1,8 +1,9 @@
-import { Header } from "@/components/Header";
-import { Categories } from "@/components/home/CategoriesContent";
-import { FeaturedCourseContent } from "@/components/home/FeaturedCourseContent";
-import { Hero } from "@/components/home/HeroContent";
-import { HowItWorksContent } from "@/components/home/HowItWorksContent";
+import { Header } from "@/app/header/Header";
+import { Categories } from "@/app/home/CategoriesContent";
+import { FeaturedCourseContent } from "@/app/home/FeaturedCourseContent";
+import { Hero } from "@/app/home/HeroContent";
+import { HowItWorksContent } from "@/app/home/HowItWorksContent";
+import { Testimonial } from "./home/TestimonialContent";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Categories />
         <FeaturedCourseContent />
         <HowItWorksContent />
+        <Testimonial />
       </main>
     </div>
   );

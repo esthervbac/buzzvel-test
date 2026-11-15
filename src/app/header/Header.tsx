@@ -1,33 +1,33 @@
 "use client";
 
 import { useState } from "react";
-import { Logo } from "./header/Logo";
-import { Nav, NavItem } from "./header/Nav";
-import { BurgerButton } from "./header/BurgerButton";
-import { MobileMenu } from "./header/MobileMenu";
-import { LinkHeader } from "./header/LinkHeader";
-import { Button } from "./header/Button";
+import { Logo } from "@/app/components/Logo";
+import { Nav, NavItem } from "@/app/components/Nav";
+import { BurgerButton } from "@/app/components/BurgerButton";
+import { MobileMenu } from "@/app/components/MobileMenu";
+import { LinkHeader } from "@/app/components/LinkHeader";
+import { Button } from "@/app/components/Button";
 
 const defaultNavItems: NavItem[] = [
   {
     label: "Courses",
     href: "#",
-    className: "text-[#656770] font-sans text-sm leading-6 font-normal",
+    className: "text-[#656770] font-inter text-sm leading-6 font-normal",
   },
   {
     label: "For Teams",
     href: "#",
-    className: "text-[#656770] font-sans text-sm leading-6 font-normal",
+    className: "text-[#656770] font-inter text-sm leading-6 font-normal",
   },
   {
     label: "Community",
     href: "#",
-    className: "text-[#656770] font-sans text-sm leading-6 font-normal",
+    className: "text-[#656770] font-inter text-sm leading-6 font-normal",
   },
   {
     label: "About",
     href: "#",
-    className: "text-[#656770] font-sans text-sm leading-6 font-normal",
+    className: "text-[#656770] font-inter text-sm leading-6 font-normal",
   },
 ];
 
@@ -50,7 +50,7 @@ export function Header() {
           <LinkHeader
             href="#"
             label="Log in"
-            className="text-[#656770] font-sans text-sm leading-6 font-normal"
+            className="text-[#656770] font-inter text-sm leading-6 font-normal"
           />
           <Button href="/#" variant="primary" label="Start learning" />
         </div>
@@ -62,7 +62,7 @@ export function Header() {
         <LinkHeader
           href="/#"
           label="Log in"
-          className=" text-[#656770] font-sans text-sm leading-6"
+          className=" text-[#656770] font-inter text-sm leading-6"
         />
         <Button
           href="/#"
