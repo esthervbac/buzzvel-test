@@ -9,7 +9,7 @@ export function HowItWorksContent() {
             <p className="text-[#3157F6] text-xs/4 font-inter font-semibold uppercase tracking-[1.44px]">
               How Luma works
             </p>
-            <p className="text-[#171B2C] text-[32px]/9 sm:text-[48px] sm:leading-17.5 font-inter font-extrabold tracking-[-0.8px] sm:tracking-[-1.2px]">
+            <p className="text-[#171B2C] text-[32px]/9 sm:text-[48px] sm:leading-17.5 font-jakarta font-extrabold tracking-[-0.8px] sm:tracking-[-1.2px]">
               Less browsing. More learning.
             </p>
           </div>
@@ -38,7 +38,7 @@ export function HowItWorksContent() {
           <p className="pt-4 text-[12px]/4 text-[#6D7384] tracking-[1.44px] font-semibold font-inter uppercase">
             Step 01
           </p>
-          <p className="pt-4 text-[20px]/8 font-bold font-inter text-[#171B2C]">
+          <p className="pt-4 text-[20px]/8 font-bold font-jakarta text-[#171B2C]">
             Choose your focus
           </p>
           <p className="pt-4 text-[16px]/7 font-normal font-inter text-[#656770]">
@@ -68,7 +68,7 @@ export function HowItWorksContent() {
           <p className="pt-4 text-[12px]/4 text-[#6D7384] tracking-[1.44px] font-semibold font-inter uppercase">
             Step 02
           </p>
-          <p className="pt-4 text-[20px]/8 font-bold font-inter text-[#171B2C]">
+          <p className="pt-4 text-[20px]/8 font-bold font-jakarta text-[#171B2C]">
             Learn from experience
           </p>
           <p className="pt-4 text-[16px]/7 font-normal font-inter text-[#656770]">
@@ -99,7 +99,7 @@ export function HowItWorksContent() {
             <p className="pt-4 text-[12px]/4 text-[#6D7384] tracking-[1.44px] font-semibold font-inter uppercase">
               Step 03
             </p>
-            <p className="pt-4 text-[20px]/8 font-bold font-inter text-[#171B2C]">
+            <p className="pt-4 text-[20px]/8 font-bold font-jakarta text-[#171B2C]">
               Put it into practice
             </p>
             <p className="pt-4 text-[16px]/7 font-normal font-inter text-[#656770]">

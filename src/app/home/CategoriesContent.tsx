@@ -1,4 +1,4 @@
-import { Card } from "@/app/home/Card";
+import { Card } from "@/app/components/Card";
 
 export function Categories() {
   return (
@@ -9,7 +9,7 @@ export function Categories() {
             <p className="text-[#3157F6] text-xs/4 font-inter font-semibold uppercase tracking-[1.44px]">
               Find your next skill
             </p>
-            <p className="text-[#171B2C] text-[32px]/9 sm:text-[48px] sm:leading-17.5 font-inter font-extrabold tracking-[-0.8px] sm:tracking-[-1.2px]">
+            <p className="text-[#171B2C] text-[32px]/9 sm:text-[48px] sm:leading-17.5 font-jakarta font-extrabold tracking-[-0.8px] sm:tracking-[-1.2px]">
               <span className="whitespace-nowrap">Learn something worth</span>
               <br /> knowing.
             </p>

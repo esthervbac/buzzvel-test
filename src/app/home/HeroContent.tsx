@@ -9,7 +9,7 @@ export function Hero() {
           <p className="text-[#3157F6] text-xs/4 font-inter font-semibold uppercase tracking-[1.44px]">
             Learn at your own pace
           </p>
-          <p className="text-[#171B2C] text-[40px]/11 sm:text-[64px] sm:leading-17.5 font-inter font-extrabold tracking-[-1px] sm:tracking-[-1.60px]">
+          <p className="text-[#171B2C] text-[40px]/11 sm:text-[64px] sm:leading-17.5 font-jakarta font-extrabold tracking-[-1px] sm:tracking-[-1.60px]">
             Build skills that actually move you forward.
           </p>
           <p className="text-[#656770] text-[16px]/6.5 sm:text-[18px] sm:leading-7 font-inter font-normal">

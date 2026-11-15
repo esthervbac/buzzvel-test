@@ -17,7 +17,7 @@ export function Card({ number, title, text, labelLink, href }: Card) {
           {number}
         </span>
       </div>
-      <p className="text-[20px]/8 text-[#171B2C] font-semibold fonts-inter">
+      <p className="text-[20px]/8 text-[#171B2C] font-semibold fonts-jakarta">
         {title}
       </p>
       <p className="text-[14px]/6 text-[#6D7384] font-normal fonts-inter">
