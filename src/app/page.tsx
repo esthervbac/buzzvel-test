@@ -6,6 +6,7 @@ import { HowItWorksContent } from "@/app/home/HowItWorksContent";
 import { Testimonial } from "./home/TestimonialContent";
 import { Section } from "./home/SectionContent";
 import { ContactSection } from "./home/ContactSectionContent";
+import { FinalCTAContent } from "./home/FinalCTAContent";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Testimonial />
         <Section />
         <ContactSection />
+        <FinalCTAContent />
       </main>
     </div>
   );
