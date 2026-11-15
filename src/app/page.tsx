@@ -7,6 +7,7 @@ import { Testimonial } from "./home/TestimonialContent";
 import { Section } from "./home/SectionContent";
 import { ContactSection } from "./home/ContactSectionContent";
 import { FinalCTAContent } from "./home/FinalCTAContent";
+import { Footer } from "@/app/components/Footer";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <ContactSection />
         <FinalCTAContent />
       </main>
+      <Footer />
     </div>
   );
 }
