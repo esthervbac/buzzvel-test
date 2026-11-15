@@ -1,9 +1,10 @@
 import { Header } from "@/app/header/Header";
+import { Hero } from "@/app/home/HeroContent";
 import { Categories } from "@/app/home/CategoriesContent";
 import { FeaturedCourseContent } from "@/app/home/FeaturedCourseContent";
-import { Hero } from "@/app/home/HeroContent";
 import { HowItWorksContent } from "@/app/home/HowItWorksContent";
 import { Testimonial } from "./home/TestimonialContent";
+import { Section } from "./home/SectionContent";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <FeaturedCourseContent />
         <HowItWorksContent />
         <Testimonial />
+        <Section />
       </main>
     </div>
   );
