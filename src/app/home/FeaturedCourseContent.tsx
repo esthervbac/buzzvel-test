@@ -30,7 +30,7 @@ export function FeaturedCourseContent() {
             Most popular this month
           </p>
 
-          <p className="text-[#FFFFFF] text-[48px]/14 sm:text-[48px]/14 font-inter font-extrabold tracking-[-1.2px] sm:tracking-[-1.2px] text-left whitespace-nowrap">
+          <p className="text-[#FFFFFF] text-[48px]/14 sm:text-[48px]/14 font-jakarta font-extrabold tracking-[-1.2px] sm:tracking-[-1.2px] text-left whitespace-nowrap">
             Designing products <br /> people understand.
           </p>
 
